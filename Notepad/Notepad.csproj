@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="chameleon.ico" />
+    <None Remove="closeAll.bmp" />
+    <None Remove="closeFile.bmp" />
+    <None Remove="closeTabButton.bmp" />
+    <None Remove="copy.bmp" />
+    <None Remove="Copy.png" />
+    <None Remove="cut.bmp" />
+    <None Remove="Cut.png" />
+    <None Remove="newFile.bmp" />
+    <None Remove="npp.ico" />
+    <None Remove="openFile.bmp" />
+    <None Remove="paste.bmp" />
+    <None Remove="Paste.png" />
+    <None Remove="print.bmp" />
+    <None Remove="Print.png" />
+    <None Remove="Save.png" />
+    <None Remove="saveAll.bmp" />
+    <None Remove="saveFile.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="chameleon.ico" />
+    <Resource Include="closeAll.bmp" />
+    <Resource Include="closeFile.bmp" />
+    <Resource Include="closeTabButton.bmp" />
+    <Resource Include="copy.bmp" />
+    <Resource Include="Copy.png" />
+    <Resource Include="cut.bmp" />
+    <Resource Include="Cut.png" />
+    <Resource Include="newFile.bmp" />
+    <Resource Include="npp.ico" />
+    <Resource Include="openFile.bmp" />
+    <Resource Include="paste.bmp" />
+    <Resource Include="Paste.png" />
+    <Resource Include="print.bmp" />
+    <Resource Include="Print.png" />
+    <Resource Include="Save.png" />
+    <Resource Include="saveAll.bmp" />
+    <Resource Include="saveFile.bmp" />
+  </ItemGroup>
+
+</Project>
