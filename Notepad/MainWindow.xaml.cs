@@ -146,9 +146,12 @@ namespace Notepad
             PrintDialog printDialog = new PrintDialog();
             if (printDialog.ShowDialog() == true)
             {
-                txtBox.Margin = new Thickness(5);
-                TC.Focus();
-                printDialog.PrintVisual(txtBox, "Распечатка текста");
+                //txtBox.Margin = new Thickness(5);
+                //TC.Focus();
+                //printDialog.PrintVisual(txtBox, "Распечатка текста");
+                printDialog.PrintDocument(
+            ((IDocumentPaginatorSource)txtBox.Document).DocumentPaginator,
+            "A Flow Document");
             }
         }
     }

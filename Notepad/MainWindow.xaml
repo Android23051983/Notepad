@@ -167,7 +167,7 @@
                         </Grid>
                     </DataTemplate>
                 </TabItem.HeaderTemplate>
-                <TextBox x:Name="txtBox" VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" AcceptsReturn="True" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Language="ru-ru" BorderBrush="White" />
+                <RichTextBox x:Name="txtBox" VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" AcceptsReturn="True" SpellCheck.IsEnabled="True" Language="ru-ru" BorderBrush="White" />
             </TabItem>
         </TabControl>
 
